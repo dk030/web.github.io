@@ -1,0 +1,89 @@
+body {
+    background-color: brown;
+    /* background-image: url("image.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;  */
+}
+
+#bgImage {
+    background-image: url("image.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+audio {
+    -webkit-transition: all 0.5s linear;
+    -moz-transition: all 0.5s linear;
+    -o-transition: all 0.5s linear;
+    transition: all 0.5s linear;
+    -moz-box-shadow: 2px 2px 4px 0px #006773;
+    -webkit-box-shadow: 2px 2px 4px 0px #006773;
+    box-shadow: 2px 2px 4px 0px #006773;
+    -moz-border-radius: 7px 7px 7px 7px;
+    -webkit-border-radius: 7px 7px 7px 7px;
+    border-radius: 7px 7px 7px 7px;
+}
+
+audio:hover, audio:focus, audio:active {
+    -webkit-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    box-shadow: 15px 15px 20px rgba(0, 0, 0, 0.4);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-family: 'Audiowide', cursive;
+}
+
+#one {
+    font-size: 2em;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#two {
+    font-size: 2em;
+    color: white;
+}
+
+#three {
+    font-size: 2em;
+    color: white;
+}
+
+#four {
+    font-size: 2em;
+    color: white;
+}
+
+#five {
+    font-size: 2em;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#six {
+    font-size: 2em;
+    color: white;
+}
+
+#seven {
+    font-size: 2em;
+    color: white;
+}
+
+#eight {
+    font-size: 2em;
+    font-style: oblique;
+    font-weight: bold;
+}
+
+#video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block
+}
